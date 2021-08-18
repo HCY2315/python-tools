@@ -1,0 +1,7 @@
+   aaa:
+      image: host:v2
+      restart: always
+      tty: true
+      networks:
+         mynet1:
+            ipv4_address: 172.30.0.bbb
